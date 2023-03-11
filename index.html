@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Expansivo</title>
+</head>
+<body>
+    <main class="container">
+        <div class="painel" style="background-image: url(imagens/obito.png)" onclick="playPause(obito, [draken, sanji, qin, gojo])">
+            <audio class="obito" src="midia/obito.mp3"></audio>
+            <h3>Uchiha Obito 🔥</h3>
+        </div>
+
+        <div class="painel" style="background-image: url(imagens/draken.webp)" onclick="playPause(draken, [obito, sanji, qin, gojo])">
+            <audio class="draken" src="midia/draken.mp3"></audio>
+            <h3>Ken Ryuguji 🐉</h3>
+        </div>
+
+        <div class="painel" style="background-image: url(imagens/sanji.png)" onclick="playPause(sanji, [obito, draken, qin, gojo])">
+            <audio class="sanji" src="midia/sanji.mp3"></audio>
+            <h3>Vinsmoke Sanji 🚬</h3>
+        </div>
+
+        <div class="painel" style="background-image: url(imagens/gojo.jpg)" onclick="playPause(gojo, [obito, draken,qin,sanji])">
+
+            <audio class="gojo" src="midia/gojo.mp3"></audio>
+
+            <h3>Satoru Gojo 👓</h3>
+        </div>
+
+        <div class="painel play" style="background-image: url(imagens/qin2.png)" onclick="playPause(qin, [obito, draken,gojo,sanji])">
+
+            <audio class="qin" src="midia/qin.mp3"></audio>
+
+            <h3>Qin Shi Huang 👑</h3>
+        </div>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
